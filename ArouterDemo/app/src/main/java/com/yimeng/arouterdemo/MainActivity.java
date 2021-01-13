@@ -1,14 +1,14 @@
 package com.yimeng.arouterdemo;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 
 /**
  * @author chenliangliang6
@@ -29,5 +29,6 @@ public class MainActivity extends AppCompatActivity {
                 .withString("name", "校长")
                 .withString("ages", "18")
                 .navigation();
+        Log.i("TAG123", "jump: " + "我又执行了该方法,啦啦啦啦");
     }
 }

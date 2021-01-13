@@ -33,5 +33,6 @@ public class MainActivity extends AppCompatActivity {
         Log.i("TAG123", "jump: " + "我是新增的注释111,哈哈哈哈");
         Log.i("TAG123", "jump: " + "我是新增的注释222,哈哈哈哈");
         Log.i("TAG123", "jump: " + "我是新增的注释333,哈哈哈哈");
+        Log.i("TAG123", "jump: " + "我是remoteTestBaranch的注释");
     }
 }

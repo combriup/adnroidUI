@@ -29,5 +29,6 @@ public class MainActivity extends AppCompatActivity {
                 .withString("name", "校长")
                 .withString("ages", "18")
                 .navigation();
+        Log.i("TAG123", "jump: " + "我又执行了该方法,啦啦啦啦");
     }
 }
